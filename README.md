@@ -22,7 +22,7 @@
 ## 1. Einleitung 
 ## 2. Events
 ### Was sind Events?
-<pre>Wie uns bereits bekannt ist kann man mit JavaFX grafische Oberflächen erstellen. Dieser Programm mit einer grafischen Oberfläche wäre mit der Interaktion des Benutzer sehr langweilig gestrickt. Ein Event in JavaFx ist jede Interaktion auf der grafischen Oberfläche welche aufgrund eines Ereignisses stattgefunden hat.</pre>
+Wie uns bereits bekannt ist kann man mit JavaFX grafische Oberflächen erstellen. Dieser Programm mit einer grafischen Oberfläche wäre mit der Interaktion des Benutzer sehr langweilig gestrickt. Ein Event in JavaFx ist jede Interaktion auf der grafischen Oberfläche welche aufgrund eines Ereignisses stattgefunden hat.
 ### Wie werden Events ausgelöst?
 Ausgelöst werden Events in dem der Benutzer in irgendeiner Form mit der grafischen Oberfläche interagiert. Beispielsweise ein Mausklick, das Bewegen der Maus, das Eintippen eines Buchstaben auf der Tastatur o.ä..
 ### Welche Typen von Events gibt es?
@@ -50,10 +50,10 @@ Die Vordergrund Events sind Ereignis die direkt aus der Interaktionen des Benutz
 2. Gleiches Beispiel mit GUI
 3. Komplexes Beispiel
 
-#4. Fazit 
+##Fazit 
 
 
-### Links
+## Links
 1. [PDF](https://platform.itslearning.com/PdfViewer/Init.aspx?FileInfoUrl=https%3a%2f%2ffilerepository.itslearning.com%2ff8e84852-22ff-47f9-9215-7070252834d8%3fToken%3dS-oNAOcJAABrbCleAAAAACAAJ8ehLDGC5tOHI5uAP82BMV1EmJctVlYm5gC5I_BBJeIAAA%26Info%3d1&Language=de-DE)
 2. [Präsentationslink](https://docs.google.com/presentation/d/1P2rKG4pHSC241VDOL-9OOKyJ3kglaXL6R29qHYVwA7s/edit?usp=sharing)
 3. Quellen

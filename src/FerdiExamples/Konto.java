@@ -8,6 +8,10 @@ Die Anzeige diese Variable soll sich bei jeder Veränderung aktualisiert werden.
  */
 
 public class Konto {
+    // Constructor
+    public Konto(double hoehe){setStand(hoehe);}
+
+
     // kabselndes Objekt
     // --> stellt die Benachrichtigungsfunktionalität bereit
     private DoubleProperty stand;

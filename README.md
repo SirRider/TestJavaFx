@@ -44,15 +44,15 @@ dass andere Klassen oder Eigenschaften sich an dem Zustand dieser Eigenschaft ko
 ### Was kann man mit Properties machen?
 So können sich die gekoppelten Klassen und Eigenschaften bei einer Zustandsänderung anpassen. 
 ### Was ist Binding?
+Als Binding bezeichnet man die Binding eines Wertes an einen anderen.
 ### Was ist High- und Low-Level Binding?
 ### Vor-/Nachteile
 Properties gibt einem die Möglichkeit Eigenschaften abhängig von dem Zustand einer anderen Eigenschaft zu machen.
 Dazu 
 
 ## Beispiele
-1. Basic Beispiel ohne GUI
-2. Gleiches Beispiel mit GUI
-3. Komplexes Beispiel
+1. [Property Example](./src/FerdiExamples/Main.java)
+2. [Bidirectional Example](./src/FerdiExamples/Main.java)
 
 ##Fazit 
 

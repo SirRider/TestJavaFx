@@ -1,6 +1,4 @@
 # JavaFX Event Handling
-
-
 ## Gliederung
 1. Einleitung 
 2. Events
@@ -46,13 +44,15 @@ So können sich die gekoppelten Klassen und Eigenschaften bei einer Zustandsänd
 ### Was ist Binding?
 Als Binding bezeichnet man die Binding eines Wertes an einen anderen.
 ### Was ist High- und Low-Level Binding?
-### Vor-/Nachteile
+### Vorteile
 Properties gibt einem die Möglichkeit Eigenschaften abhängig von dem Zustand einer anderen Eigenschaft zu machen.
-Dazu 
+So lässt sich eine Abhängigkeit schnell erstellen und entfernen,
+gerade da die Abhängigkeit beim Objekt erstellt wird.
 
 ## Beispiele
 1. [Property Example](./src/FerdiExamples/Main.java)
-2. [Bidirectional Example](./src/FerdiExamples/Main.java)
+2. [Unidirectional Example](./src/FerdiExamples/Main.java)
+3. [Bidirectional Example](./src/FerdiExamples/Main.java)
 
 ##Fazit 
 
@@ -60,12 +60,10 @@ Dazu
 ## Links
 1. [PDF](https://platform.itslearning.com/PdfViewer/Init.aspx?FileInfoUrl=https%3a%2f%2ffilerepository.itslearning.com%2ff8e84852-22ff-47f9-9215-7070252834d8%3fToken%3dS-oNAOcJAABrbCleAAAAACAAJ8ehLDGC5tOHI5uAP82BMV1EmJctVlYm5gC5I_BBJeIAAA%26Info%3d1&Language=de-DE)
 2. [Präsentationslink](https://docs.google.com/presentation/d/1P2rKG4pHSC241VDOL-9OOKyJ3kglaXL6R29qHYVwA7s/edit?usp=sharing)
-3. Quellen
-<pre>
-1.[]
-2.[]
-3.[]
-4.[]
-</pre>
+## Quellen
+1. [JavaBeginners](https://javabeginners.de/Frameworks/JavaFX/Properties_und_Binding.php)
+2. [Rheinwerk-Verlag](http://openbook.rheinwerk-verlag.de/javainsel/12_004.html)
+3. []
+4. []
 
 

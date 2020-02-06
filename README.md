@@ -34,31 +34,20 @@ Die Vordergrund Events sind Ereignis die direkt aus der Interaktionen des Benutz
 * Drag Event
 * Window Event
 ### Wie behandelt man Events (Eventhandling)?
-Im Allgemeinen betrachtet ist das behandeln von Events nichts anders als das systematischen kontrollieren von Ereignis auf der JavaFx Oberfläche.
-Diese Mechanismen werden je nach Ereignis ausgelöst und in freigegeben. 
-In JavaFx besitzt jedes Event:
-    * Ziel(Target): Die Node wohin das Event weitergeleitet wird
-    * Quelle(Source):Die Node, welche das Event ausgelöst hat
-    * Typ(Type): Der Typ des Events
 
-Wichtig beim Eventhandling ist zu wissen, dass es eine sogennante Event-Verabeitungskette gibt(Event Dispathc chain) gibt.
-Diese Kette ist in zwei Phasen eingeteilt: Event Capturing Phase und Event Bubbling Phase.
-
-Die Event Capturing Phase ist die Phase in der das Event, die Ereigniss Verarbeitungskette von oben nach unten abläuft. Hierbei können bis hin zum Ziel
-alle Nodes das Eventfilter und es filtern, sodass es nicht mehr am Ziel am kommt.
-
-In der Event Bubbling Phase steigt das Event von unten nach oben und man kann mit dem Event arbeiten d.h. unterschiedliche Aktion ausführen.
-    
- 
 
 ## Properties & Binding
 
 ### Was sind Properties?
+Properties sind Eigenschaften von Klassen, die es ermöglichen, 
+dass andere Klassen oder Eigenschaften sich an dem Zustand dieser Eigenschaft koppeln.
 ### Was kann man mit Properties machen?
-### Was ist ein Listener?
+So können sich die gekoppelten Klassen und Eigenschaften bei einer Zustandsänderung anpassen. 
 ### Was ist Binding?
 ### Was ist High- und Low-Level Binding?
 ### Vor-/Nachteile
+Properties gibt einem die Möglichkeit Eigenschaften abhängig von dem Zustand einer anderen Eigenschaft zu machen.
+Dazu 
 
 ## Beispiele
 1. Basic Beispiel ohne GUI
@@ -73,7 +62,7 @@ In der Event Bubbling Phase steigt das Event von unten nach oben und man kann mi
 2. [Präsentationslink](https://docs.google.com/presentation/d/1P2rKG4pHSC241VDOL-9OOKyJ3kglaXL6R29qHYVwA7s/edit?usp=sharing)
 3. Quellen
 <pre>
-1.[https://www.tutorialspoint.com/javafx/javafx_event_handling.htm]
+1.[]
 2.[]
 3.[]
 4.[]

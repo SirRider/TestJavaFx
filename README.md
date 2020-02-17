@@ -1,4 +1,6 @@
 # JavaFX Event Handling
+
+
 ## Gliederung
 1. Einleitung 
 2. Events
@@ -32,27 +34,35 @@ Die Vordergrund Events sind Ereignis die direkt aus der Interaktionen des Benutz
 * Drag Event
 * Window Event
 ### Wie behandelt man Events (Eventhandling)?
+Im Allgemeinen betrachtet ist das behandeln von Events nichts anders als das systematischen kontrollieren von Ereignis auf der JavaFx Oberfläche.
+Diese Mechanismen werden je nach Ereignis ausgelöst und in freigegeben. 
+In JavaFx besitzt jedes Event:
+    * Ziel(Target): Die Node wohin das Event weitergeleitet wird
+    * Quelle(Source):Die Node, welche das Event ausgelöst hat
+    * Typ(Type): Der Typ des Events
 
+Wichtig beim Eventhandling ist zu wissen, dass es eine sogennante Event-Verabeitungskette gibt(Event Dispathc chain) gibt.
+Diese Kette ist in zwei Phasen eingeteilt: Event Capturing Phase und Event Bubbling Phase.
 
+Die Event Capturing Phase ist die Phase in der das Event, die Ereigniss Verarbeitungskette von oben nach unten abläuft. Hierbei können bis hin zum Ziel
+alle Nodes das Eventfilter und es filtern, sodass es nicht mehr am Ziel am kommt.
+
+In der Event Bubbling Phase steigt das Event von unten nach oben und man kann mit dem Event arbeiten d.h. unterschiedliche Aktion ausführen.
+   
+ Alle EventHandler Klassen und Filter haben das Interface EventHandler aus the package javafx.event implementiert.
 ## Properties & Binding
 
 ### Was sind Properties?
-Properties sind Eigenschaften von Klassen, die es ermöglichen, 
-dass andere Klassen oder Eigenschaften sich an dem Zustand dieser Eigenschaft koppeln.
 ### Was kann man mit Properties machen?
-So können sich die gekoppelten Klassen und Eigenschaften bei einer Zustandsänderung anpassen. 
+### Was ist ein Listener?
 ### Was ist Binding?
-Als Binding bezeichnet man die Binding eines Wertes an einen anderen.
 ### Was ist High- und Low-Level Binding?
-### Vorteile
-Properties gibt einem die Möglichkeit Eigenschaften abhängig von dem Zustand einer anderen Eigenschaft zu machen.
-So lässt sich eine Abhängigkeit schnell erstellen und entfernen,
-gerade da die Abhängigkeit beim Objekt erstellt wird.
+### Vor-/Nachteile
 
 ## Beispiele
-1. [Property Example](./src/FerdiExamples/Main.java)
-2. [Unidirectional Example](./src/FerdiExamples/Main.java)
-3. [Bidirectional Example](./src/FerdiExamples/Main.java)
+1. Basic Beispiel ohne GUI
+2. Gleiches Beispiel mit GUI
+3. Komplexes Beispiel
 
 ##Fazit 
 
@@ -60,10 +70,12 @@ gerade da die Abhängigkeit beim Objekt erstellt wird.
 ## Links
 1. [PDF](https://platform.itslearning.com/PdfViewer/Init.aspx?FileInfoUrl=https%3a%2f%2ffilerepository.itslearning.com%2ff8e84852-22ff-47f9-9215-7070252834d8%3fToken%3dS-oNAOcJAABrbCleAAAAACAAJ8ehLDGC5tOHI5uAP82BMV1EmJctVlYm5gC5I_BBJeIAAA%26Info%3d1&Language=de-DE)
 2. [Präsentationslink](https://docs.google.com/presentation/d/1P2rKG4pHSC241VDOL-9OOKyJ3kglaXL6R29qHYVwA7s/edit?usp=sharing)
-## Quellen
-1. [JavaBeginners](https://javabeginners.de/Frameworks/JavaFX/Properties_und_Binding.php)
-2. [Rheinwerk-Verlag](http://openbook.rheinwerk-verlag.de/javainsel/12_004.html)
-3. []
-4. []
+3. Quellen
+<pre>
+1.[https://www.tutorialspoint.com/javafx/javafx_event_handling.htm]
+2.[]
+3.[]
+4.[]
+</pre>
 
 

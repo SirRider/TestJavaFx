@@ -25,19 +25,23 @@ public class Client {
         context.getStrategy().algorithmus();
         System.out.println(context.getStrategy().berechnungen(a,b));
 
-        /**
+
         // Dynamische Veränderung
-        Scanner detective = new Scanner(System.in);
         for (int i = 0; i < 3; i++) {
+            Scanner detective = new Scanner(System.in);
             System.out.print("Welche Lösung brauchen sie(A/B/C)?:");
-            if (detective.nextLine().equals("A"))
+            String answer = detective.nextLine();
+            if (answer.equals("A")){
                 context.setStrategy(new ConcreteStrategyA()); context.getStrategy().algorithmus();
-            if (detective.nextLine().equals("B"))
+            }
+            if (answer.equals("B")){
                 context.setStrategy(new ConcreteStrategyB()); context.getStrategy().algorithmus();
-            if (detective.nextLine().equals("C"))
+            }
+            if (answer.equals("C")){
                 context.setStrategy(new ConcreteStrategyC()); context.getStrategy().algorithmus();
+            }
+
         }
-         */
     }
 
 }
